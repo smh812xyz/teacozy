@@ -1,0 +1,41 @@
+
+
+
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 1300px;
+  height: 69px;
+  padding: 0px 0px;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  z-index: 10;
+}
+
+.header-space {
+  height: 70px;
+  width: 100%;
+}
+
+.logo {
+  width: 160px;
+}
+
+.logo-header {
+  display: inline-flex;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.menu a {
+  text-decoration: underline;
+  display: inline-flex;
+  margin: auto 15px auto 15px;
+
+}

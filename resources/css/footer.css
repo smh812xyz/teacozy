@@ -1,0 +1,15 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+  height: 280px;
+  text-align: center;
+  z-index: 0;
+  overflow: auto;
+  background-color: black;
+}
+
+.copyright-footer {
+  margin-left: 20px;
+  text-align: left;
+}
