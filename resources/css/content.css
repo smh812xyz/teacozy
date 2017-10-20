@@ -132,28 +132,44 @@ h4 {
   background-image: url("../images/img-bedford-bizarre.jpg");
 }
 
-.location-container {
+.locations-container {
+  display: flex;
+  flex-direction: column;
   margin-top: 70px;
   display: inline-flex;
   height: 500px;
   width: 1200px;
   background-image: url("../images/img-locations-background.jpg");
   margin: 0px 80px 5px 50px;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+  align-items: center;
 }
-/*
-body,
-.menu a,
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: helvetica;
-  color: seashell;
-  opacity: .9;
-}
-*/
 
-h5 {}
+.locations-text-container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.locations-text-container h2 {
+  margin-bottom: 15px;
+}
+
+.location-blocks {
+  display: inline-flex;
+}
+
+.location-block {
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    /*  border: 1px solid white;  */
+    background-color: black;
+    margin: 0px 20px;
+    opacity: 1;
+}
