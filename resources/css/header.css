@@ -1,7 +1,5 @@
 
 
-
-
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -18,11 +16,6 @@
   z-index: 10;
 }
 
-.header-space {
-  height: 70px;
-  width: 100%;
-}
-
 .logo {
   width: 160px;
 }
@@ -37,5 +30,4 @@
   text-decoration: underline;
   display: inline-flex;
   margin: auto 15px auto 15px;
-
 }
